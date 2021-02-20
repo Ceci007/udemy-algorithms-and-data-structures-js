@@ -6,6 +6,7 @@
 ** whitout their order changing.
 */
 
+// Iterative solution
 const isSubsequence = (str1, str2) => {
   let i = 0;
   let j = 0;
