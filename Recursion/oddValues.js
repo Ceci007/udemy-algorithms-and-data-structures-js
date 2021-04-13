@@ -1,4 +1,4 @@
-// Try to collect all the odd values in an array
+// Try to collect all the odd values in an array (use recursion)
 
 const collectOddValues = (arr) => {
   let result = [];
