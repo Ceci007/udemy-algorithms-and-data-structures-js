@@ -3,7 +3,7 @@
 ** capitalize each letter of every word.
 */
 
-// capitalizeFirst(['car','taco','banana']); // ['Car','Taco','Banana']
+// capitalizeFirst(['car','taco','banana']); // ['CAR','TACO','BANANA']
 
 const capitalizeWords = array => {
   if (array.length === 1) {
@@ -16,4 +16,4 @@ const capitalizeWords = array => {
   return result;
 }
 
-console.log(capitalizeWords(['car','taco','banana'])); // ['Car','Taco','Banana']
+console.log(capitalizeWords(['car','taco','banana'])); // ['CAR','TACO','BANANA']
